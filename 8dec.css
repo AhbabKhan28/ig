@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    width:  100%;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#coursor{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:purple;
+    mix-blend-mode: difference;
+}
+
+.box h1{
+    font-size: 10vw;
+    color: white;
+}
